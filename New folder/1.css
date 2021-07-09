@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ html{
+     scroll-behavior: smooth;
+ }
+ .info{
+     text-align: center;
+     justify-content: center;
+     height: 20px;
+     padding: 50px ;
+     font-family: cursive;
+    font-size: 35px;
+ }
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 38%;
+    border: 3px snow;
+    border-radius: 50%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+width: 70%;
+/*background-color:black;
+/*justify-content: center;*/
+display: flex;
+align-items: center;
+}
+.nav-list li{
+    line-height: none;
+    padding:28px 33px ;
+    list-style: none;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+}
+.nav-list li  :hover{
+    text-decoration: none;
+    color: red;
+}
+.rightnav{
+    /*background-color: blueviolet;*/
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px snow;
+    border-radius: 9px;
+}
+.background{
+    background: rgb(0,0,0,0.7) url('https://source.unsplash.com/1600x900/? tourism,nature,');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+}
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   font-family: cursive;
+    max-width: 50%;
+    margin: auto;
+    height: 80%
+}
+.firsthalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 20%;
+    
+}
+.secondhalf img{
+    width: 70%;
+    /*padding: 2px 0;*/
+    border: 2px solid rgb(197, 158, 158);
+    border-radius: 48%;
+    display: block;
+    margin: auto;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sn{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.sectionright{
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: cursive;
+    font-size: 15px;
+}
+.btndark{
+    color: black;
+    border:2px solid black;
+    font-family: cursive;
+    font-size: 18px;
+    background-color: rgb(57, 214, 57);
+}
+
+.sectionleft{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: cursive;
+    font-size: 15px;
+    flex-direction: row-reverse;
+}
+.paras{
+    padding: 0 65px;
+    
+}
+.sectionTag{
+    padding: 20px 16px;
+    font-size: 30px;
+}
+.sectionSubtag{
+    font-family: cursive;
+}
+.tumbnil img{
+    height: 350px;
+    width: 430px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.contact{
+    background-image: url("https://source.unsplash.com/1600x900/? nature,water,wild") ;
+    background-color: rgb(250, 247, 244);
+    height: 600px;
+}
+.textcentre{
+    text-align: center;
+    padding-top: 50px;
+    font-family: cursive;
+    font-size: 35px;
+}
+.form{
+    max-width: 500px;
+    margin: 5px auto;
+}
+.form input{
+    width: 100%;
+    padding: 5px;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.textfoter{
+    text-align: center;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.me{
+    text-align: center;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: honeydew; */
+
+}
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    margin: 10px 8px;
+    font-size: 34px;
+    text-decoration: none;
+    background-color: beige;
+}
+.social a:hover{
+    box-shadow: 3px 2px  7px rgb(228, 222, 147);
+}
